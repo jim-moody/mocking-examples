@@ -34,7 +34,7 @@ const moduleB = require('./moduleB');
 
 moduleA.functionA.mockImplementation(() => 0)
 
-console.log(funcB()) // returns undefined
+console.log(functionB()) // returns undefined
 ```
 
 ## Caveat #2
